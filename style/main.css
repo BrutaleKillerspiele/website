@@ -1,0 +1,42 @@
+
+:root {
+	--background-color: #fff109;
+	--foreground-color: #b92a1d;
+}
+
+@font-face {
+	font-family: 'RT DIY-Tape';
+	src: url(RT%20DIY-Tape.ttf);
+}
+
+body {
+	background-color: var(--background-color);
+	color: var(--foreground-color);
+	margin: 0;
+	padding: 0;
+}
+
+div.title-block {
+	position: absolute;
+	left: 24px;
+	top: 24px;
+}
+
+div.center-block {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+h1 {
+	font-family: 'RT DIY-Tape';
+	font-size: 4em;
+	margin: 0;
+}
+
+p {
+	font-family: 'RT DIY-Tape';
+	font-size: 2em;
+}
+
