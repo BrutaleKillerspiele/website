@@ -16,6 +16,11 @@
 	src: url(veteran%20typewriter.ttf);
 }
 
+::selection {
+	background-color: var(--yellow-color);
+	color: var(--red-color);
+}
+
 body {
 	background-color: var(--background-color);
 	color: var(--foreground-color);
