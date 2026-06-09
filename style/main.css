@@ -25,13 +25,10 @@ body {
 	background-color: var(--background-color);
 	color: var(--foreground-color);
 	margin: 0;
-	padding: 0;
+	padding: 24px 0 0 0;
 }
 
 div.title-block {
-	position: absolute;
-	left: 24px;
-	top: 24px;
 	display: flex;
 	flex-direction: row;
 }
@@ -40,7 +37,31 @@ div.center-block {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 100vh;
+}
+ 
+.links {
+	position: fixed;
+	bottom: 24px;
+	left: 0;
+	width: 100%;
+	text-align: center;
+}
+
+.links a {
+	display: inline-block;
+	margin: 0 8px;
+	padding: 10px 8px;
+	background: transparent;
+	border-radius: 8px;
+	color: teal;
+	text-decoration: none;
+}
+
+.links a:hover,
+.links a:focus {
+	background: transparent;
+	transform: none;
+	text-decoration: underline;
 }
 
 h1 {
