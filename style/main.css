@@ -33,6 +33,10 @@ div.title-block {
 	flex-direction: row;
 }
 
+div.title-block img {
+	margin: 12px;
+}
+
 div.center-block {
 	display: flex;
 	justify-content: center;
